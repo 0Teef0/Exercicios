@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Waterfall&display=swap');
+/**
+.waterfall-regular {
+  font-family: "Waterfall", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.sansita-regular-italic {
+  font-family: "Sansita", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  **/
+
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #F8BC55;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 100px;
+    padding: 10px;
+    background-color: #FFE9BC ;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px #984E23;
+}
+
+.info__prato {
+    box-sizing: border-box;
+    width: 1000px;
+    margin: 20px;
+   border-radius: 20px;
+    justify-content: space-around;
+    text-align: center;
+ background-color: #f15f1b54;
+}
+p{
+    text-align: justify;
+}
+#box__ingrdientes{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.imagem__ingredientes {
+    
+    margin: 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.instrucoes{
+    margin: 30px;
+
+}
+
+.prato__pronto{
+   width: 1030px;
+   margin: 10px;
+    border-radius: 20px;
+}
+
+.rodape {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   justify-content: end;
+    width: 100%;
+   
+    background-color: #984E23;
+    color: white;
+}
+
+/* estilos fontes*/
+
+#nome__receita {
+    font-family: "Sansita", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px; 
+    color: #CF4F15;
+    text-shadow: 1px 1px #984E23; 
+}
+
+.descricao__prato{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.ingredientes{
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #CF4F15; 
+}
+.sub__classe{
+    font-family: "Sansita", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px; 
+}
+
+.lista__ingredientes {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    font-size: 18px; 
+}
+
+.preparo{
+     font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #CF4F15; 
+}
+ 
+.lista__instrucoes{
+     font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    font-size: 18px; 
+}
+}
